@@ -66,13 +66,16 @@
         </div>
       </div>
     </nav>
+
+    <Popup />
   </div>
 </template>
 
 <script>
+import Popup from "./components/Popup.vue";
 export default {
   name: "App",
-  components: {},
+  components: { Popup },
 };
 </script>
 
